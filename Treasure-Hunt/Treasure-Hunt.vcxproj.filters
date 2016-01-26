@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{baa099d8-a8a0-435c-806c-d2a0727e3eb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="accessories">
+      <UniqueIdentifier>{712af756-311a-4ae2-ba13-fc26d08cdc50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Phoenix">
+      <UniqueIdentifier>{4e5ef5e0-b7ab-42bd-b115-b0a7f344b004}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="prototypes">
+      <UniqueIdentifier>{f515426d-1270-4c73-a465-1f8e2e3b2fab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameUpdates">
+      <UniqueIdentifier>{1df168f1-7ba8-4804-9f2d-f40cffc229f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="initinfo.cpp">
+      <Filter>accessories</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="Phoenix.cpp">
+      <Filter>Phoenix</Filter>
+    </ClCompile>
+    <ClCompile Include="gameUpdates.cpp">
+      <Filter>gameUpdates</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="initinfo.h">
+      <Filter>accessories</Filter>
+    </ClInclude>
+    <ClInclude Include="ascincludes.h">
+      <Filter>accessories</Filter>
+    </ClInclude>
+    <ClInclude Include="Phoenix.h">
+      <Filter>Phoenix</Filter>
+    </ClInclude>
+    <ClInclude Include="prototypes.h">
+      <Filter>prototypes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
