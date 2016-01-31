@@ -1,5 +1,15 @@
-﻿  Phoenix.cpp
-  main.cpp
-  gameUpdates.cpp
+﻿  Sprite.cpp
+  Phoenix.cpp
+c:\users\addict\documents\visual studio 2015\projects\treasure-hunt\treasure-hunt\phoenix.cpp(7): warning C4018: '<': signed/unsigned mismatch
+c:\users\addict\documents\visual studio 2015\projects\treasure-hunt\treasure-hunt\phoenix.cpp(94): warning C4018: '<': signed/unsigned mismatch
+  KeyboardHandler.cpp
   Generating Code...
-  Treasure-Hunt.vcxproj -> c:\users\addict\documents\visual studio 2015\Projects\Treasure-Hunt\Debug\Treasure-Hunt.exe
+  Compiling...
+  test.cpp
+c:\users\addict\documents\visual studio 2015\projects\treasure-hunt\treasure-hunt\test.cpp(22): warning C4305: 'argument': truncation from 'double' to 'float'
+  main.cpp
+  Updates.cpp
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  Layer.cpp
+  Treasure-Hunt.vcxproj -> C:\Users\Addict\documents\visual studio 2015\Projects\Treasure-Hunt\Debug\Treasure-Hunt.exe

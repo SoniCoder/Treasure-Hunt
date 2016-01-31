@@ -145,16 +145,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="gameUpdates.cpp" />
+    <ClCompile Include="KeyboardHandler.cpp" />
+    <ClCompile Include="Updates.cpp" />
     <ClCompile Include="initinfo.cpp" />
+    <ClCompile Include="Layer.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Phoenix.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="test.cpp" />
+    <ClCompile Include="Timer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ascincludes.h" />
     <ClInclude Include="initinfo.h" />
+    <ClInclude Include="KeyboardHandler.h" />
+    <ClInclude Include="Layer.h" />
     <ClInclude Include="Phoenix.h" />
     <ClInclude Include="prototypes.h" />
+    <ClInclude Include="Scenes.h" />
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="test.h" />
+    <ClInclude Include="Timer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

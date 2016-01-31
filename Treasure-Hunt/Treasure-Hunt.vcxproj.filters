@@ -7,14 +7,17 @@
     <Filter Include="accessories">
       <UniqueIdentifier>{712af756-311a-4ae2-ba13-fc26d08cdc50}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Phoenix">
-      <UniqueIdentifier>{4e5ef5e0-b7ab-42bd-b115-b0a7f344b004}</UniqueIdentifier>
-    </Filter>
     <Filter Include="prototypes">
       <UniqueIdentifier>{f515426d-1270-4c73-a465-1f8e2e3b2fab}</UniqueIdentifier>
     </Filter>
-    <Filter Include="gameUpdates">
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{ac5451cc-d7e0-45f9-b2b1-1c081cad46e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Update">
       <UniqueIdentifier>{1df168f1-7ba8-4804-9f2d-f40cffc229f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Phoenix">
+      <UniqueIdentifier>{4e5ef5e0-b7ab-42bd-b115-b0a7f344b004}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -27,8 +30,21 @@
     <ClCompile Include="Phoenix.cpp">
       <Filter>Phoenix</Filter>
     </ClCompile>
-    <ClCompile Include="gameUpdates.cpp">
-      <Filter>gameUpdates</Filter>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Phoenix</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>Phoenix</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="Updates.cpp">
+      <Filter>Update</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardHandler.cpp">
+      <Filter>Phoenix</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -43,6 +59,22 @@
     </ClInclude>
     <ClInclude Include="prototypes.h">
       <Filter>prototypes</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Phoenix</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>Phoenix</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="test.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardHandler.h">
+      <Filter>Phoenix</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
